@@ -1,0 +1,20 @@
+[
+    {
+        "question_type": "MC",
+        "difficulty": 3,
+        "topics": [
+            "Harlot",
+            "Lorem",
+            "Distributed"
+        ],
+        "question_text": "You're evaluating a blah blah. Blah blah blop blip?",
+        "choices": [
+            "Hoop",
+            "Doop",
+            "Erin",
+            "Shoot"
+        ],
+        "hints": "You dumb",
+        "answer": "Erin"
+    }
+]
