@@ -16,5 +16,37 @@
         ],
         "hints": "You dumb",
         "answer": "Erin"
+    },
+    {
+        "question_type": "MC",
+        "difficulty": 1,
+        "topics": [
+            "Networking"
+        ],
+        "question_text": "Werp",
+        "choices": [
+        	"Bill Cosby",
+        	"Beats",
+        	"Dre",
+        	"Apple"
+        ],
+        "hints": "You really don't need a hint",
+        "answer": "Dre"
+    },
+    {
+    	"question_type": "FR",
+    	"difficulty": 5,
+    	"topics": [
+    		"Dubstep"
+    	],
+    	"question_text": "Trap Music",
+    	"choices": [
+    		"Egypt",
+    		"Ra",
+    		"Milan Dasgupta",
+    		"Black History Month"
+    	],
+    	"hints": "Skism",
+    	"answer": "Ra"
     }
 ]

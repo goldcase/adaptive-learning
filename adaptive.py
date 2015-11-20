@@ -34,6 +34,9 @@ class Question(object):
     def get_text(self):
         return self.question_text
 
+    def get_choices(self):
+        return self.choices
+
 class QuestionEngine(object):
     def __init__(self, filename = None):
         if filename is None:
@@ -82,4 +85,8 @@ class Player(object):
         return self.get_question(random.choice(self.topics))
 
 player = Player(filename = "questions.json")
-print player.get_random_question().get_text()
+question = player.get_question("Dubstep")
+print question.get_text()
+print "Choices:"
+for c in question.get_choices():
+    print c
